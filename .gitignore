@@ -61,5 +61,9 @@ target/
 #Ipython Notebook
 .ipynb_checkpoints
 
+.idea/ 
+
 sorted_scores/
 trained_scores/
+max_score/
+prf/

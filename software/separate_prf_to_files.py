@@ -1,6 +1,10 @@
 import os
 import sys
+'''
+separates the prf based on the prof of the images.
+each new file has the name of prof and all sample of prof in it.
 
+'''
 __author__ = 'mameri'
 
 def make_dir_out(p_dir_out):
