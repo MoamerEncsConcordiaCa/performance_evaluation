@@ -63,9 +63,12 @@ target/
 
 .idea/ 
 
-sorted_scores/
-trained_scores/
+features/
 max_score/
 prf/
-features/
+report/
+sorted_scores/
+trained_scores/
+
+
 
