@@ -2,7 +2,9 @@ import sys
 import os
 
 __author__ = 'mameri'
-
+'''
+It collects and sorts the top files in one file.
+'''
 def make_dir_out(p_dir_out):
     if not os.path.exists(p_dir_out):
         os.mkdir(p_dir_out)
@@ -36,7 +38,7 @@ def write_scores_to_file(p_sorted_lines, p_dir_out):
 
 if __name__ == '__main__':
     if len(sys.argv) > 1:
-        argv  = sys.argv[1:]
+        argv = sys.argv[1:]
         dir_in = argv[0]
         dir_out = argv[1]
 

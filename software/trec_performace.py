@@ -1,8 +1,3 @@
-__author__ = 'mameri'
-
-
-__author__ = 'ameri'
-
 
 import sys, os
 import shutil
@@ -11,7 +6,11 @@ from os.path import expanduser
 
 sys.path.append('config')
 
+__author__ = 'mameri'
 
+'''
+performance evaluation by Trec_eval
+'''
 
 
 def extract_param_form_file_name (p_prop_item) :

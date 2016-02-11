@@ -67,3 +67,5 @@ sorted_scores/
 trained_scores/
 max_score/
 prf/
+features/
+

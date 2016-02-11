@@ -2,6 +2,13 @@ __author__ = 'mameri'
 
 import sys, os
 
+'''
+performance evaluation by Trec_eval on all dir
+It reports the best performance that can be used in
+best_performance parameter in HMM.
+'''
+
+
 def process_config_file(p_fn):
     if not os.path.isfile(p_fn):
         return  [];
