@@ -1,4 +1,0 @@
-tp:243 fp:9474 tn:12949 fn:133
-acc:0.57862186938
-keywords:376
-non-keywords:22423
