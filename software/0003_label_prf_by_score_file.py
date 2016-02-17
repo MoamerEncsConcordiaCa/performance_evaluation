@@ -23,7 +23,7 @@ def label_prf_by_score_files(p_file_score, p_file_in, p_file_out):
                 print i, word_i
                 score_value = float(score_line[1])
                 label = prof
-                if score_value > 0:
+                if score_value > -10:
                     label = score_line[0] +'_' + score_line[1]
 
                 header = line.replace(prof, label)
